@@ -26,11 +26,11 @@ Each case to process is expected to be a .h5 (or .hdf5) file with the following 
 - `spacing`: 4D flow voxel spacing (list of 3 numbers)
 
 `obs`: observation keys
-- `t`: time coordinate array (shape `[Nt x 1]`)
-- `xyz`: space coordinate array (shape `[Nf x 3]`)
-- `u`: x-component of velocity vector (array of `[Nf x Nt]`)
-- `v`: y-component of velocity vector (array of `[Nf x Nt]`)
-- `w`: z-component of velocity vector (array of `[Nf x Nt]`)
+- `t`: time coordinates array (shape `[Nt x 1]`)
+- `xyz`: space coordinates array (shape `[Nf x 3]`)
+- `u`: x-component of velocity vectors (array of `[Nf x Nt]`)
+- `v`: y-component of velocity vectors (array of `[Nf x Nt]`)
+- `w`: z-component of velocity vectors (array of `[Nf x Nt]`)
 
 `wall`: wall keys
 - `xyz`: space coordinate array (shape `[Nw x 3]`)\
