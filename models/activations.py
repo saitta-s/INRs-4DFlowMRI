@@ -1,5 +1,6 @@
 # Code adapted from https://github.com/vsitzmann/siren.git
 
+import numpy as np
 import torch
 import torch.nn as nn
 import math

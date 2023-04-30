@@ -5,7 +5,7 @@ from torch import nn
 import numpy as np
 import math
 
-from activations import *
+from models.activations import *
 
 
 class MLP(nn.Module):
